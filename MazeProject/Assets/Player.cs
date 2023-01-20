@@ -30,8 +30,7 @@ public class Player : MonoBehaviour
 
         Vector3 movemennt = new Vector3(0, 0, 0);
 
-        i8pj 
-
+      
         transform.Translate(movemennt * Time.fixedDeltaTime);
 
     }
@@ -48,7 +47,7 @@ public class Player : MonoBehaviour
             collectableText.text = collectableCounter.ToString();
             if (collectableCounter == 10)
             {
-                gameObject.SetActive(false)x eaqE
+                gameObject.SetActive(false);
             }
         }
 
